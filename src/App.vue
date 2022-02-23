@@ -1,15 +1,18 @@
 <template>
   <div class="container">
     <Header title="Track" />
+    <Tasks :tasks="tasks" />
   </div>
 </template>
 
 <script>
 import Header from '@/components/Header'
+import Tasks from '@/components/Tasks'
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Tasks,
   },
   data() {
     return {
@@ -25,7 +28,7 @@ export default {
         reminder: true,
       },
       {
-        id: 3,
+        id: 2,
         text: 'lorem ipsum text 2',
         day: 'lorem ipsum day 2',
         reminder: true,
