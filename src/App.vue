@@ -13,9 +13,31 @@ export default {
   },
   data() {
     return {
-      
+      tasks: []
     }
   },
+  created() {
+    this.tasks = [
+      {
+        id: 1,
+        text: 'lorem ipsum text 1',
+        day: 'lorem ipsum day 1',
+        reminder: true,
+      },
+      {
+        id: 3,
+        text: 'lorem ipsum text 2',
+        day: 'lorem ipsum day 2',
+        reminder: true,
+      },
+      {
+        id: 3,
+        text: 'lorem ipsum text 3',
+        day: 'lorem ipsum day 3',
+        reminder: true,
+      },
+    ]
+  }
 }
 </script>
 
