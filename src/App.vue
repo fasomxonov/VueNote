@@ -1,7 +1,6 @@
 <template>
   <div class="container">
-    <header></header>
-    <h1>Hello world</h1>
+    <Header title="Track" />
   </div>
 </template>
 
