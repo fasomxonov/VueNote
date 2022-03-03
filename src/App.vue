@@ -75,15 +75,18 @@ export default {
 }
 body {
   font-family: 'Poppins', sans-serif;
+  background: rgb(194, 194, 194);
 }
 .container {
   max-width: 500px;
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 2px solid rgb(138, 138, 138);
+  border-radius: 10px;
   padding: 30px;
   background-repeat: 5px;
+  background: white;
 }
 .btn {
   display: inline-block;
